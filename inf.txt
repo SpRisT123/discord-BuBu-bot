@@ -1,0 +1,11 @@
+nodejs.org
+
+npm init
+
+npm install discord.js
+
+npm i mathjs
+
+npm install -g pm2
+
+npm i figlet
