@@ -36,7 +36,7 @@ client.on('guildMemberAdd', guildMember =>{
 client.on("ready", () => {
     client.user.setActivity("Jebać Jurczyk 💜", {
         type: "STREAMING",
-        url: "https://www.twitch.tv/fistachyt"
+        url: "https://showup.tv/Mini_Mouse"
 });
 
 });
