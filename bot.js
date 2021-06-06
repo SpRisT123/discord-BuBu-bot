@@ -137,7 +137,7 @@ client.on('message', message =>{
             if(toKick.kickable){
                 let x = new Discord.MessageEmbed()
                 .setTitle('Kick')
-                .setDescription('https://steamcommunity.com/id/Charonq/')
+                .setDescription('')
                 .addField('Wyrzucony:', toKick)
                 .addField('Wyrzucony przez', message.author)
                 .addField('Przyczyna', reason)
@@ -161,7 +161,7 @@ client.on('message', message =>{
         if(toBan.bannable){
             let x = new Discord.MessageEmbed()
             .setTitle('Ban')
-            .setDescription('https://steamcommunity.com/id/Charonq/')
+            .setDescription('')
             .addField('Użytkownik zbanowany', toBan)
             .addField('Zbanowany przez', message.author)
             .addField('Przyczyna', reason)
