@@ -13,7 +13,7 @@ module.exports = {
         figlet.text(
             args.join(" "),
             {
-                font: "Caligraphy",
+                font: "",
             },
             async (err, data) => {
                 message.channel.send(`\`\`\`${data}\`\`\``);
