@@ -34,7 +34,7 @@ client.on('guildMemberAdd', guildMember =>{
 });
 
 client.on("ready", () => {
-    client.user.setActivity("Jebać Jurczyk 💜", {
+    client.user.setActivity("Jebać Kucharską", {
         type: "STREAMING",
         url: "https://www.twitch.tv/sashagrey"
 });
